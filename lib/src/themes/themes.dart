@@ -1,2 +1,2 @@
 export 'color_app.dart';
-export 'themes.dart';
+export 'typography_app.dart';

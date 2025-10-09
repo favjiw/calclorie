@@ -44,6 +44,12 @@ class TypographyApp {
     fontWeight: FontWeight.w400,
     color: ColorApp.greyHint,
   );
+  static TextStyle get body => TextStyle(
+    fontFamily: 'Poppins',
+    fontSize: 14.sp,
+    fontWeight: FontWeight.w500,
+    color: ColorApp.mainBlack,
+  );
 
   static TextStyle get whiteOnBtn => TextStyle(
     fontFamily: 'Poppins',

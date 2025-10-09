@@ -3,6 +3,10 @@ class Assets {
   Assets._();
 
   static const String imagesCalclorieLogo = 'assets/images/calclorie_logo.png';
+  static const String imagesCm = 'assets/images/cm.png';
+  static const String imagesHeightIc = 'assets/images/height_ic.png';
+  static const String imagesKg = 'assets/images/Kg.png';
+  static const String imagesKgIc = 'assets/images/kg_ic.png';
   static const String poppinsPoppinsBold = 'assets/fonts/poppins/Poppins-Bold.ttf';
   static const String poppinsPoppinsExtraBold = 'assets/fonts/poppins/Poppins-ExtraBold.ttf';
   static const String poppinsPoppinsExtraLight = 'assets/fonts/poppins/Poppins-ExtraLight.ttf';
