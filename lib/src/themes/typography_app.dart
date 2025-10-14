@@ -51,6 +51,13 @@ class TypographyApp {
     color: ColorApp.mainBlack,
   );
 
+  static TextStyle get error => TextStyle(
+    fontFamily: 'Poppins',
+    fontSize: 14.sp,
+    fontWeight: FontWeight.w500,
+    color: ColorApp.error,
+  );
+
   static TextStyle get whiteOnBtn => TextStyle(
     fontFamily: 'Poppins',
     fontSize: 14.sp,

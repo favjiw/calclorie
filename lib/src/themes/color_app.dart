@@ -9,4 +9,5 @@ class ColorApp {
   static const Color greyInactive = Color(0xFF7E7E7E);
   static const Color greyHint = Color(0xFFB3B3B3);
   static const Color border = Color(0xFFE2E2E2);
+  static const Color error = Color(0xFFFF0000);
 }

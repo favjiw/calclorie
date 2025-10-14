@@ -24,7 +24,7 @@ class AppTextInput extends StatelessWidget {
   Widget build(BuildContext context) {
     return SizedBox(
       width: 361.w,
-      height: 50.h,
+      height: 80.h,
       child: TextFormField(
         controller: controller,
         validator: validator,
@@ -32,6 +32,7 @@ class AppTextInput extends StatelessWidget {
           prefixIcon: prefixIcon,
           suffixIcon: suffixIcon,
           hintText: hintText,
+          errorStyle: TypographyApp.error,
           hintStyle: TypographyApp.hint,
           border: OutlineInputBorder(
             borderRadius: BorderRadius.circular(7.r),
